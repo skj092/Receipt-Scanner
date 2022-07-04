@@ -129,5 +129,3 @@ dmypy.json
 .pyre/
 
 # files
-Receipts/
-*.jpeg
