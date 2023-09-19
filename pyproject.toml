@@ -1,0 +1,24 @@
+[project]
+name = "recepit-parsers"
+version = "0.1"
+description = "Using pytesseract ocr for information extraction"
+authors = [
+    {name = "skj092", email = "sonujha092@gmail.com"},
+]
+dependencies = [
+    "gunicorn==21.2.0",
+    "requests",
+    "fastapi==0.103.1",
+    "loguru==0.7.0",
+    "filetype==1.2.0",
+    "uvicorn==0.23.2",
+    "pillow==10.0.0",
+    "PyPDF2>=3.0.1",
+    "PyMuPdf>=1.22.5",
+    "pytesseract==0.3.0",
+    "opencv-python-headless==4.8.0.76",
+    "pillow==10.0.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {file = "readme.md"}
