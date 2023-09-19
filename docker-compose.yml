@@ -1,0 +1,8 @@
+services:
+  recepit-extraction:
+    build: .
+    image: sonu/recepit-extraction
+    environment:
+      - LOG_ENV=staging
+    ports:
+      - '52209:52207'
